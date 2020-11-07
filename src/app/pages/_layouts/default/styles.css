@@ -1,0 +1,7 @@
+.default-wrapper {
+  height: 100vh;
+}
+
+.default-content {
+  display: flex;
+}

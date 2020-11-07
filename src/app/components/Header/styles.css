@@ -1,0 +1,52 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background-color: #212121;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+}
+
+.header-container .logo {
+  text-decoration: none;
+  color: #c4c4c4;
+}
+
+.header-container nav {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container nav span.header-user {
+  font-size: 1.1rem;
+}
+
+.header-container nav span.header-points {
+  font-size: 12px;
+  text-align: right;
+  line-height: 1.5rem;
+}
+
+.header-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.logout {
+  min-width: 100px;
+  background-color: #f9a826;
+  color: #fff;
+  text-align: center;
+  padding: 2px 0;
+  font-weight: bold;
+  cursor: pointer;
+}

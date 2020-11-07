@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: #303030;
+  color: #c4c4c4;
+  height: 100vh;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
